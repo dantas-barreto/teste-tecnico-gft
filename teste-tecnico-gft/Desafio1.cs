@@ -1,11 +1,11 @@
 ﻿namespace teste_tecnico_gft
 {
-    public class Desafio1
+    public class Item
     {
         public string Nome { get; }
         public int Quantidade { get; private set; }
 
-        public Desafio1(string nome, int quantidade)
+        public Item(string nome, int quantidade)
         {
             Nome = nome;
             Quantidade = quantidade;
